@@ -1,0 +1,263 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: Century Gothic;
+}
+
+/* Nav BAr */
+.navbar-light{
+    background-color: #0005;
+    height: 80px;
+    margin-top: -20px;
+
+}
+.navbar-light a{
+    height: 20px;
+    font-family: poppins;
+    font-weight: bold;
+}
+.navbar-light .navbar-brand img{
+    margin-top: -10px;
+    width: 100px;
+}
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
+    color:white;
+}
+.navbar-light .navbar-toggler {
+    color: rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
+    background-color: white;
+}
+.navbar-light .navbar-nav .nav-item .nav-link{
+    color: white;
+    padding-right: 20px;
+    font-size: 20px;
+    transition: 0.6s ease;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: rgb(205, 238, 20);
+}
+.w-100{
+    height: 100vh;
+}
+/* carousel */
+.carousel-item{
+    position: relative;
+    display: none;
+    float: left;
+    margin-right: -100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transition: -webkit-transform .6s ease-in-out;
+    transition: transform .6s ease-in-out;
+}
+.carousel-caption h1{
+    color: white;
+    font-weight: bold;
+    font-size: 100px;
+    font-family: Monaco;
+}
+.carousel-caption .img{
+    width: 150px;
+}
+.carousel-caption h1 p{
+    display: inline;
+    font-family: Times New Roman, Georgia;
+    font-size: 50px;
+}
+.carousel-caption .sub{
+    margin-top: -10px;
+    font-style: italic;
+    font-size: 20px;
+    float: right;
+    padding-right: 175px;
+    font-family: Monaco;
+}
+.carousel-caption a{
+    text-transform: uppercase;
+    background: #0005;
+    padding: 10px 30px;
+    display: inline-block;
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    border-radius: 40%;
+    text-decoration: none;
+}
+.carousel-caption #demo{
+    color: aqua;
+    font-family: Monaco;
+    font-size: 60px;
+}
+.carousel-caption h3{
+}
+.carousel-caption a:hover{
+    background: #f7f7f7d3;
+    color: rgb(0, 0, 0);
+}
+/* about mind bend */
+.container-fluid{
+    height: auto;
+    width: 100%;
+    margin-top: -10px;
+    color: white;
+    background-color: #696969;
+}
+.container-fluid h1{
+    font-family: Georgia;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 60px;
+    color: rgb(88, 180, 255);
+}
+.container-fluid p{
+    font-family: normal;
+    font-size: 30px;
+}
+/* protocols */
+
+.list-group h1{
+    text-transform: uppercase;
+    font-size: 65px;
+    font-family: 'Nunito Sans',   sans-serif!important;
+    text-align: center;
+    font-weight: bold;
+    color:rgb(0, 0, 0);
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Gallery */
+.gallery{
+    height: auto;
+    background-color: burlywood;
+}
+.gallery h1{
+    text-align: center;
+    font-family: Rockwell Extra Bold;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 60px;
+    font-style: italic;
+    margin: 30px 0 50px;
+}
+.gallery a img{
+    width: 330px;
+    padding: 20px;
+    margin-left: 20px;
+    filter: grayscale(100%);
+    transition: 1.5s;
+}
+.gallery a img:hover{
+    filter: grayscale(0%);
+    transform: scale(1.5);
+}
+/* Events */
+.event{
+    max-width: 1300px;
+    margin: auto;
+    overflow: auto;
+}
+.event h1{
+    font-size: 80px;font-family: Rockwell Extra Bold;padding-bottom: 20px; text-align: center;color:rgb(0, 0, 0);
+    margin-bottom: -20px;
+    font-weight: bold;
+    font-style: italic;
+    text-transform: uppercase;
+}
+.event-gallery{
+    margin: 20px;
+    border: 2px solid #cccccc;
+    border-radius: 50px;
+    text-transform: uppercase;
+    float: right;
+    width: 390px;
+    box-shadow: blueviolet;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+
+}
+.event-gallery:hover{
+    transform: scale(1.1);
+    filter: grayscale(0%);
+}
+.event-gallery img{
+    width: 100%;
+    height: auto;
+    border-radius: 25px;
+    
+}
+.event-name{
+    padding: 15px;
+    text-align: center;
+    color: blueviolet;
+    font-style: italic;
+    font-weight: bold;
+    font-family: monospace;
+    font-size: xx-large;
+
+}
+.event-disc ul{
+    padding: 15px;
+    text-align: center;
+    margin: auto;
+    padding: 0%;
+    list-style-type: none;
+}
+/* contact Us */
+.contact{
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    height: auto;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+.contact .header{
+    font-size: 65px;font-family: 'Nunito Sans', sans-serif!important;
+    padding-bottom: 20px; 
+    font-weight: bold;
+    text-align: center;color:black; 
+    font-style: italic;
+}
+.contact div div h2{
+    color:whitesmoke;
+    font-size: 35px;
+    font-style: initial;
+    text-transform: uppercase;
+    color: black;
+    text-align: center;
+}
+.contact div div div h3{
+    color: white;
+    text-align: center;
+}
+.contact .addres h3{
+    color: black;
+    text-decoration: underline;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+}
+.contact .addres address{
+    color: white;
+    font: 1em sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+/* footer */
+.footer{
+    text-align: center;
+    background-color: #cccccc;
+    background-position: center;
+    background-size: cover;
+    margin-top: -15px;
+    padding-bottom: 15px;
+    font-family: Arial Black;
+}
+.footer a{
+    font-family: Arial Black;
+    color: blue;
+    }
